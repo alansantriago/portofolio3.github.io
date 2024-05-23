@@ -1,0 +1,38 @@
+.contact-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .contact-text {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .accent-text {
+    color: #ffe100;
+    text-align: center;
+  }
+  
+  .contact {
+    background-color: #047ff1;
+    width: 100vw;
+    text-align: center;
+    max-width: 100%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-bottom: .5rem;
+  }
+  
+  @media (max-width: 900px) {
+    .contact-main-section {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+  }
